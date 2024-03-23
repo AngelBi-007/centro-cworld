@@ -1,0 +1,71 @@
+/* Estilos para el header y la barra de navegación */
+header, nav {
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    padding: 10px 0; /* Espaciado interno */
+    text-align: center; /* Centrar el contenido */
+    overflow: hidden; /* Ocultar desbordamiento */
+}
+
+header h1 {
+    margin: 0; /* Eliminar márgenes del título */
+}
+
+nav ul, footer nav ul {
+    list-style: none; /* Eliminar viñetas de la lista */
+    padding: 0; /* Eliminar relleno de la lista */
+    margin: 0; /* Eliminar márgenes de la lista */
+    display: flex; /* Mostrar elementos de la lista en línea */
+    justify-content: center; /* Centrar elementos de la lista horizontalmente */
+}
+
+nav ul li, footer nav ul li {
+    margin: 0 10px; /* Espaciado entre elementos de la lista */
+}
+
+nav ul li a, footer nav ul li a {
+    color: #fff; /* Color de enlace */
+    text-decoration: none; /* Eliminar subrayado de los enlaces */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    padding: 20px 0; /* Espaciado interno */
+    text-align: center; /* Centrar el contenido */
+}
+
+footer p {
+    margin: 0; /* Eliminar márgenes del párrafo */
+}
+
+
+
+
+/***********************************************************************************************************/
+
+
+/* Estilos para la lista de servicios */
+.servicios-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Estilos para cada servicio individual */
+.servicio {
+    flex: 1 0 300px; /* Cada servicio ocupa un tercio del contenedor, con un máximo de 300px */
+    margin: 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.servicio h3 {
+    margin-top: 0;
+}
+
+.servicio p {
+    margin-bottom: 0;
+}
